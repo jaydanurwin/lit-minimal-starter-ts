@@ -7,7 +7,7 @@ import summary from 'rollup-plugin-summary';
 import multiInput from 'rollup-plugin-multi-input';
 
 export default {
-  input: ['src/pages/*.html'],
+  input: ['src/*.html'],
   plugins: [
     html(),
     // Resolve bare module specifiers to relative paths
